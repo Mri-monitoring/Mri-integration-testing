@@ -1,0 +1,27 @@
+; ---=== Dispatch Settings ===---
+; Dispatches events to be plotted locally in Matplotlib
+[matplotlib-dispatch]
+save_img_folder = /home/vagrant/Files/images
+
+; Dispatches events to an mri-server
+[mri-server-dispatch]
+url = http://mri-integration-test.herokuapp.com
+username = integration
+password = integration 
+
+; ---=== Retrieve Settings ===---
+; Retrieve events from a local folder
+[local-retrieve]
+task_list = /home/vagrant/Files/tasks.txt
+
+; ---=== Client Settings ===---
+[mri-client]
+log_location = ../mri.log
+debug = True
+caffe_root = /home/vagrant/caffe
+caffe_bin = ./build/tools/caffe
+solver_type = Caffe
+
+; Dispatch and Retrieve modules to use
+dispatch = mri-server-dispatch
+retrieve = local-retrieve
