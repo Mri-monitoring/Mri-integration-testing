@@ -2,10 +2,9 @@
   "directives": [{
       "type": "train",
       "parameters": {
-        "model": "/home/vagrant/Files/001/model.prototxt",
         "solver": "/home/vagrant/Files/001/solver.prototxt"
       }
     }],
-  "name": "Integration Test",
+  "title": "Integration Test",
   "id": "001"
 }

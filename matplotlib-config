@@ -1,7 +1,7 @@
 ; ---=== Dispatch Settings ===---
 ; Dispatches events to be plotted locally in Matplotlib
 [matplotlib-dispatch]
-save_img_folder = /home/vagrant/Files/images
+save_img_folder = /vagrant
 
 ; Dispatches events to an mri-server
 [mri-server-dispatch]
