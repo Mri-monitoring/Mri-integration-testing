@@ -17,7 +17,7 @@ task_list = /home/vagrant/Files/tasks.txt
 ; ---=== Client Settings ===---
 [mri-client]
 log_location = ../mri.log
-debug = True
+log_level = True
 caffe_root = /home/vagrant/caffe
 caffe_bin = ./build/tools/caffe
 solver_type = Caffe
